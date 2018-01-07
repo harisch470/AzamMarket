@@ -1,0 +1,130 @@
+body{
+	background:#CCC;
+}
+/*----------------content area of home area start -------------*/
+
+.container{
+	margin-top:150px;
+}
+.head-and-btn{
+	width: 100%;
+	height: auto;
+
+}
+.buyer-head{
+	color: black;
+	padding:0px;
+	margin: 0px;
+	text-transform: uppercase;
+	font-family: 'robort',sans-serif;
+	font-size: 32px;
+	font-weight: lighter;
+	margin-top: 20px;
+}
+.btn-pos{
+	
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: auto;
+	padding-left:30px;
+	padding-right:30px;
+	text-transform: uppercase;
+	color: #333;
+	float: right;
+	font-family: arial !important;
+}
+.tbody-row{
+	background-color: white;
+	padding: 10px;
+	border: solid 1px #c5c5c5;
+	margin-bottom: 10px;
+
+}
+.round-img{
+	width: 70px;
+	height: 70px;
+	border-radius: 70px;
+	background-color: black;
+	margin: 0px auto;
+
+}
+.send-offer-pos{
+	margin-top: 20px;
+}
+
+.custom-table thead th{
+	text-transform: uppercase;
+	font-family: 'robort', sans-serif;
+	text-align: center;
+	font-weight: bold;
+}
+
+.custom-table tr{
+	background-color: white;
+}
+
+.custom-table tr td{
+	text-align: center;
+	text-transform: capitalize;
+
+	font-family: 'robort', sans-serif;
+	
+}
+.table{
+	border-radius: 20px;
+}
+.top-bar{
+	padding:10px 0px;
+	background-color: white;
+	box-sizing: border-box;
+}
+.top-bar h1{
+	text-align: center;
+}
+.top-bar p{
+	text-align: center;
+}
+ul .topnav{
+	font-family: 'robort', sans-serif;
+margin: 0px auto;
+display: block;
+}
+.menue{
+	min-width: 100%;
+	height: auto;
+	overflow: hidden;
+	margin: 0px auto;
+	text-align: center;
+	background-color: black;
+}
+.menu li{display: block;}
+.menue li:first-child{
+	display: none;
+}
+.form-box{
+	border:solid 1px black;
+}
+.form-box .form-control{
+	border-radius: 0px;
+}
+.label{
+	font-weight: bold;
+}
+
+.form-box h2{
+	font-weight: bold;
+	font-family: arial;
+	padding:5px 0px;
+}
+.modal-header .desc-title{
+	text-transform: uppercase;
+	font-family: arial;
+	font-weight: bold;
+
+}
+/*
+.nav-btn{
+	background-color: white;
+	float:right;
+}
+*/

@@ -1,0 +1,27 @@
+@media screen and (max-width: 760px) {
+
+.btn-pos{
+  width: 100%;
+}
+
+#nav-btn{
+	display: block;
+}
+.menue{width: 100%;
+}
+
+.menue li:first-child{
+	display: block;
+}
+
+.menue li:not(:first-child){
+	display: none;
+}
+.show{display: block;}
+.topnav{
+	height: auto;
+	width: 100%;
+}
+
+} 
+

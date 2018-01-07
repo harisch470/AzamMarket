@@ -1,0 +1,186 @@
+
+/*-------------------------content area of selecttype start-----------------------*/
+body{
+}
+.main-content-div{
+	background-color: #FDFDFD;
+	margin-top:90px;
+	margin-bottom:100px;
+
+}
+.text-top{margin:60px 0px;}
+.text-top h4{
+	text-align: center;
+	color: #757575;	
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+}
+.desc-img{text-align: center; height:40px; } 
+.desc-img img{width:120px; height: auto; margin-bottom:20px;}
+.desc-img h3{font-family: sans-serif; font-weight: bold; color: #757575; margin:0px 0px 10px 0px;}
+.desc-img h6{font-family:  sans-serif; color:#757575; margin:0px; margin:0px 0px 10px 0px;}
+.desc-img a{padding:1px 20px; font-family: sans-serif;}
+.midlines-area{position: relative;min-height:400px; overflow: hidden;}
+.mid-line{height:120px; margin-bottom: 30px; border-left:1px #757575 solid;position: absolute; right:50%;}
+.mid-line2{height:120px; border-left:1px #757575 solid;position: absolute; right:50%; top:160px;}
+.or{margin-top:120px; font-family: 'Roboto',sans-serif;font-weight: bold;color:#757575; font-size:16px;}
+
+
+.text-top h4, .desc-img h3, .desc-img h4, .desc-img h6, .or{ color: #757575;}
+.text-top h4, .desc-img h3, .desc-img h4, .or{font-family: 'Roboto',sans-serif;}
+.desc-img h6 {font-family: sans-serif;}
+.inner-container{width:70%; margin-left:15%; margin-right:15%;}
+
+/*-------------------- content area end -------------------------------*/
+
+/*-------------------- content area of seller signup -------------------------------*/
+
+
+
+/*-------------------- content area of seller signup -------*/
+
+/*----------------content area of buying content area start -------------*/
+.buyer-main-div{
+	background-color: #FDFDFD;
+	margin-top:120px;
+	margin-bottom:-30px;
+}
+.buyer-main-div .inner-container{
+	margin-bottom: 20px;
+}
+.signupinfo{
+	font-family: 'Ropa Sans', sans-serif;
+	 font-weight: bold; font-size: 18px; 
+	 color:black;
+	 margin :25px 0px 25px 0px;
+}
+
+.buyer-main-div .form-control{
+	height: 40px;
+	width: 100%;
+	font-family:'roboto',sans-serif;
+	font-size: 12px;
+	text-align: center;
+	box-shadow: none;
+	border-radius: 2px;
+}
+.buyer-main-div .form-group select{
+	text-align: center;
+}
+.bootstrap-select.btn-group .btn .filter-option {
+    text-align: center; /* to override text-align: left; */
+}
+
+
+.buyer-main-div input{margin: 0px auto;}
+.custom-btn{
+	--background-color: #BABABA;
+  	color:white;
+ 	width:100%;
+   	box-sizing: border-box;	
+    font-family: sans-serif;
+    border:solid 0.5px #989898;
+    height: 40px;
+  	line-height: 50%;
+  	font-family: sans-serif;
+  	text-align: center;
+  	font-size: 12px;
+  	line-height: 27px;
+  	
+}
+
+.center{text-align: center;}
+
+.field-distance{margin-bottom :30px;}
+}
+.buyer-main-div .btn .btn-default{background-color: black;}
+.signup-btn {
+  	color:white;
+ 	width:100%;
+   	box-sizing: border-box;	
+   	border:solid 0.5px #989898;
+    font-family: arial;
+}
+
+.upload-input-border {border: none;cursor: none; }
+.upload-input-border:focus{
+    outline: none;
+    cursor: none;
+ 
+}
+.btn-div{width: 100%; text-align:center; background-color: blue;}
+input[disabled]{
+	background-color: transparent;
+}
+
+.buyer-main-div select option:disabled{display: none;}
+/*----------------content area of buying content area end ----------------*/ 
+
+
+/*----------------content area of login content area start ----------------*/ 
+
+
+.login-content-div{
+	background-color: #FDFDFD;
+	margin-top:120px;
+	border-bottom: solid 1px #5D5D5D;
+	margin-bottom:20px;
+
+}
+.login-content-div .login{
+	font-family: 'Ropa Sans', sans-serif;
+	font-size: 30px;
+	color: black;
+	margin-bottom: 6px;
+}
+.login-content-div .text-top p{
+	font-family: 'Roboto',sans-serif;
+	font-size: 14px;
+}
+.horrizontal{
+	width: 46.686667%;
+	float: left;
+}
+.midor{
+width:5.666667%;
+float: left;
+font-family: 'Roboto', sans-serif;
+}
+hr{
+	border: none;
+    height: 0.5px;
+    /* Set the hr color */
+    color: #333; /* old IE */
+    background-color: #757575;
+}
+.login-content-div .form-group{
+	width: 60%;
+	margin: 20px auto;
+}
+.login-content-div .form-group label{
+	margin-bottom: 10px;
+	font-family: 'roboto', sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+	color: #757575;
+	text-transform: uppercase;
+}
+.login-content-div button{
+	margin-bottom: 
+}
+.login-content-div .form-control{
+	width: 100%;
+    margin: 0px auto;
+    box-shadow: none;
+    font-family: 'roboto', sans-serif;
+    border-radius: 2px;
+    height: 45px;
+}
+.login-content-div button{
+	margin-bottom: 60px;
+}
+
+.login-content-div .text-top{
+
+	margin:35px auto;
+}
