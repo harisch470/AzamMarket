@@ -14,7 +14,7 @@
 	<link rel="stylesheet" type="text/css" href="ASSETS FOLDER/registeration assets/styles/buyerb.css">
 	<link rel="stylesheet" type="text/css" href="ASSETS FOLDER/registeration assets/styles/responsive.css">
 @stop
-@section('title')Buyer Sign Up Page
+@section('title')<title>Buyer Sign Up Page</title>
 @stop
 @section('pageContent')
 <div class="buyer-main-div">

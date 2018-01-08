@@ -42,7 +42,7 @@
 
     </style>
 @stop
-@section('title')ORDER Detail
+@section('title')<title>ORDER Detail</title>
 @stop
 @section('pageContent')
     <div class="Full_box" style="margin:150px">

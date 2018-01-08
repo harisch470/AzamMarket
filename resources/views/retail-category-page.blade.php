@@ -7,7 +7,7 @@
     <script src="ASSETS FOLDER/catagory assets/js/index.js"></script>
 
 @stop
-@section('title')retail catagory page
+@section('title')<title>retail category page</title>
 @stop
 @section('pageContent')
     <div class="cat-nav">

@@ -30,7 +30,7 @@
     </style>
 
 @stop
-@section('title')Offer Recieved
+@section('title')<title>Offer Received</title>
 @stop
 @section('pageContent')
 <div class="Full_box" style="margin:150px"> 

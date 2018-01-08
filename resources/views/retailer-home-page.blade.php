@@ -155,7 +155,7 @@
         }
     </style>
 @stop
-@section('title')Home@stop
+@section('title')<title>Retailer Home</title>@stop
 @section('pageContent')
     <div id="container">
 

@@ -64,7 +64,7 @@
         }
     </script>
 @stop
-@section('title')ACCEPTED ORDER list@stop
+@section('title')<title>ACCEPTED ORDER list</title>@stop
 @section('pageContent')
 
     <table class="flatTable">

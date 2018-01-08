@@ -16,7 +16,7 @@
 	<script type="text/javascript" src="ASSETS FOLDER/registeration assets/js/bootstrap.min.js"></script>
 
 @stop
-@section('title')Seller Sign Up Page@stop
+@section('title')<title>Seller Sign Up Page</title>@stop
 @section('pageContent')
 <div class="buyer-main-div">
 	<div class="container-fluid">

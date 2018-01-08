@@ -7,7 +7,7 @@
     <script src="ASSETS FOLDER/buyer tables/assets/js/image slider/jquery-2.1.3.min.js"></script>
     <script src="ASSETS FOLDER/buyer tables/assets/js/image slider/index.js"></script>
 @stop
-@section('title')ACCEPTED ORDER list
+@section('title')<title>ACCEPTED ORDER list</title>
 @stop
 @section('pageContent')
 

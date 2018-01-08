@@ -10,7 +10,7 @@
 	<script src="ASSETS FOLDER/enquiry assets/assets/js/image slider/index.js"></script>
 
 @stop
-@section('title')Enquiry Page
+@section('title')<title>Enquiry Page</title>
 @stop
 @section('pageContent')
 <div class="form" align="center">

@@ -1,4 +1,5 @@
 @extends('layouts.master')
+@section('title') <title>Home</title> @stop
 @section('headAssets')
     <link rel="stylesheet" href="ASSETS FOLDER/home assets/assets/style/stylef.css"/>
     <link rel="stylesheet" type="text/css" href="ASSETS FOLDER/home assets/assets/bootstrap/bootstrap.min.css"/>
@@ -163,7 +164,6 @@
     </style>
 
 @stop
-@section('title') Home @stop
 @section('pageContent')
     <div id="container">
 

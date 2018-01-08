@@ -14,7 +14,7 @@
 	<link rel="stylesheet" type="text/css" href="ASSETS FOLDER/registeration assets/styles/responsive.css">
 	<script type="text/javascript" src="ASSETS FOLDER/registeration assets/js/bootstrap.min.js"></script>
 @stop
-@section('title')Select Type Page
+@section('title')<title>Select Type Page</title>
 @stop
 @section('pageContent')
 <div class="main-content-div">

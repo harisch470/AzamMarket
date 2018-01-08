@@ -4,7 +4,7 @@
 
 	</style>
 @stop
-@section('title')WishList Page @stop
+@section('title')<title>WishList Page</title>@stop
 @section('pageContent')
   <!-- main body section -->
   <section class="main-body">

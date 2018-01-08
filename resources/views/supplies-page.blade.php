@@ -11,8 +11,8 @@
 
 
 @stop
-@section('title')
-Custom Order Page
+@section('title')<title>
+Custom Order Page</title>
 @stop
 @section('pageContent')
 

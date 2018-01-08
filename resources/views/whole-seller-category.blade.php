@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title')whole sale Category page@stop
+@section('title')<title>whole sale Category page</title>@stop
 
 @section('headAssets')
 	<link rel="shortcut icon" href="../favicon.ico">

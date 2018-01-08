@@ -12,7 +12,7 @@
 
 
 @stop
-@section('title')Buyer Request Page@stop
+@section('title')<title>Buyer Request Page</title>@stop
 @section('pageContent')
     <!--<div class="search">
      <input type="text" name="">

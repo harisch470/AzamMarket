@@ -14,7 +14,7 @@
     <script src="ASSETS FOLDER/bag assets/assets1/js/image slider/index.js"></script>
 
 @stop
-@section('title') Cart Page @stop
+@section('title')<title>Cart Page</title> @stop
 @section('pageContent')
     <section class="main-body">
         <div class="container">

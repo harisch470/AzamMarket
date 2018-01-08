@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-{{--<title>@yield('title')</title>--}}
+@yield('title')
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="author" content="Codrops" />
@@ -18,10 +18,10 @@
         <div class="col-md-3">
 <div class="toggle">
   <ul class="nav">
-    <li><a href="Home.html"><img src="ASSETS FOLDER/registeration assets/assets/images/svg/user.svg" style="height:50px; width:30px;" /></a>
+    <li><a href="{{route('home')}}"><img src="ASSETS FOLDER/registeration assets/assets/images/svg/user.svg" style="height:50px; width:30px;" /></a>
       <ul>
-        <li><a href="select-type.blade.php">Register</a></li>
-        <li><a href="login.blade.php">Log In</a></li>
+        <li><a href="{{route('select-type')}}">Register</a></li>
+        <li><a href="{{route('login')}}">Log In</a></li>
       </ul>
     </li>
    </ul>
@@ -30,16 +30,16 @@
 
         	<div class="col-md-6">
   			<div class="sitetitle">
-  				<h1><a href="Home.html">AZAM CLOTH MARKET</a></h1>
-  				<p><a href="Home.html">5000 Shops 1 Address</a></p>
+  				<h1><a href="{{route('home')}}">AZAM CLOTH MARKET</a></h1>
+  				<p><a href="{{route('home')}}">5000 Shops 1 Address</a></p>
   			</div>
   			</div>
             <div class="col-md-3">
   			<div class="topcart">
   				<ul>
-  					<li><a href="wishlist page.html"><img src="ASSETS FOLDER/registeration assets/assets/images/svg/starstar.svg" style="height:55px ; width:35px; padding-top:20px " /></a></li>
+  					<li><a href="{{route('wishlist')}}"><img src="ASSETS FOLDER/registeration assets/assets/images/svg/starstar.svg" style="height:55px ; width:35px; padding-top:20px " /></a></li>
                   <li>  <img src="ASSETS FOLDER/registeration assets/assets/images/svg/line.svg" style="height: 60px ; width: 4px; padding-top:20px;" /></li>
-  					<li><a href="Shopping Bag .html"><img src="ASSETS FOLDER/registeration assets/assets/images/svg/shopping-purse-icon.svg"  style="height:50px ; width:25px; padding-top:25px;" /></a></li>
+  					<li><a href="{{route('shopping-bag')}}"><img src="ASSETS FOLDER/registeration assets/assets/images/svg/shopping-purse-icon.svg"  style="height:50px ; width:25px; padding-top:25px;" /></a></li>
   				</ul>
   			</div>
   			</div>
@@ -50,7 +50,7 @@
 			<nav class="menu">
 				<ul>
 					<li class="drop-down">
-						<a href="#">WHOLESALE SHOP</a>
+						<a href="{{route('whole-seller-home')}}">WHOLESALE SHOP</a>
 
 						<div class="mega-menu fadeIn animated">
 							<div class="mm-6column">
@@ -69,7 +69,7 @@
 			        </li>
 
                     <li class="drop-down2">
-						<a href="#">RETAIL SHOP</a>
+						<a href="{{route('retail-home')}}">RETAIL SHOP</a>
 					       <div class="mega-menu2 fadeIn animated">
 							  <div class="mm-6column">
 								  <span class="left-images">
@@ -92,7 +92,7 @@
 						<a href="#">HOW IT WORKS</a>
 					</li>
 					<li>
-						<a href="enquiry.blade.php">ENQUIRY</a>
+						<a href="{{route('enquiry')}}">ENQUIRY</a>
 					</li>
 					<li>
 						<a href="#">Blog</a>

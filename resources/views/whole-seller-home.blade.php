@@ -213,7 +213,7 @@
             }
         </script>
     @stop
-    @section('title')Whole seller Home@stop
+    @section('title')<title>Whole seller </title>@stop
     @section('pageContent')
     <div id="container">
 

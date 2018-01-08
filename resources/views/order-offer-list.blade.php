@@ -8,7 +8,7 @@
     <script src="ASSETS FOLDER/buyer tables/assets/js/image slider/index.js"></script>
 
 @stop
-@section('title')order offer list
+@section('title')<title>order offer list</title>
 @stop
 @section('pageContent')
     <table class="flatTable">

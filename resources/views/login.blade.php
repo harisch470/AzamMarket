@@ -4,7 +4,7 @@
 
     </style>
 @stop
-@section('title')Login@stop
+@section('title')<title>Login</title>@stop
 @section('pageContent')
 <div class="login-content-div">
     <div class="container-fluid">
