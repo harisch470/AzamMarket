@@ -29,7 +29,7 @@
 				<img src="ASSETS FOLDER/registeration assets/images/salesman-working.svg"> 
 				<h3> I Am A Seller. </h3>
 				<h6>Join with us and increase your sale</h6>
-				<a href="seller-signup.blade.php" type="button" class="btn btn-success btn-lg">Join</a>
+				<a href="{{route('seller-signup')}}" type="button" class="btn btn-success btn-lg">Join</a>
 			</div>
 			<div class="col-md-2 col-lg-2 col-sm-2 col-xs-2 text-center midlines-area">
 				<div class="mid-line"> </div> 
@@ -42,7 +42,7 @@
 				<img src="ASSETS FOLDER/registeration assets/images/man-shopping.svg"> 
 				<h3> I Am A Buyer. </h3>
 				<h6>Join with us and enjoy luxury clothing</h6>
-				<a href="buyer-signup.blade.php" type="button" class="btn btn-success btn-lg " >Join</a>
+				<a href="{{route('buyer-signup')}}" type="button" class="btn btn-success btn-lg " >Join</a>
 			</div>
 		
 		</div><!-- end row div --> 

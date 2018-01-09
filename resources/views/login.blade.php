@@ -11,7 +11,7 @@
         <div class="inner-container">
             <div class="text-top text-center">
                 <h1 class="login"> Log In </h1>
-                <P> Don't have an account? Sign Up</P>
+                <P> Don't have an account? <a href="{{route('select-type')}}" style="text-decoration: none;color:#5cb85c;">Sign Up</a></P>
             </div>    <!-- end text-top div -->
         </div>
 
