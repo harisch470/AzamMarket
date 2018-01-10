@@ -15,14 +15,14 @@ class CreateSellersTable extends Migration
     {
         Schema::create('sellers', function (Blueprint $table) {
             $table->increments('S_id');
-            $table->string('name',40);
+            $table->string('name',50);
             $table->string('type',10);
             $table->string('shopName',60);
-            $table->string('email',40)->unique();
-            $table->string('Address',120);
-            $table->integer('contactNo');
-            $table->integer('subCharges');
-            $table->string('password',30);
+            $table->string('email',50)->unique();
+            $table->string('address',120);
+            $table->double('contactNo');
+            $table->double('subCharges');
+            $table->string('password',200);
             $table->string('profileImg',150);
             $table->string('coverImg',150);
             $table->timestamps();

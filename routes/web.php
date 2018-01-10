@@ -36,4 +36,9 @@ Route::group(['Basics'], function () {
 
     Route::get('/master', function () { return view('layouts.master');})->name('master');
 
+    Route::post('/createUser', ['uses' => 'UserController@create', 'as' => 'create.User']);
+
 });
+
+Auth::routes();
+

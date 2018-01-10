@@ -1,4 +1,4 @@
-<script> 
+
 	document.getElementById("uploadBtn").onchange = function () {
     document.getElementById("uploadFile").value = this.value;
 	};
@@ -10,30 +10,21 @@
             
              sellingtype = $(this).val();
              sellingtype = $.trim(sellingtype);
-             if (sellingtype =='Whole Sale'){
-              $('.subscription-charges').val( 5000 + ' RS');
+             if (sellingtype =='WholeSale'){
+              $('.subscription-charges').val( 5000);
              }
               else if (sellingtype =='Retail'){
-              $('.subscription-charges').val( 10000 + ' RS');
+              $('.subscription-charges').val( 10000);
              }
              else if(sellingtype =='Both'){
-                $('.subscription-charges').val( 15000 + ' Rs');
+                $('.subscription-charges').val( 15000);
              }
              else {
                 $('.subscription-charges').val('');  
              }
                
         });
-	</script>
-	<script src="js/jquery-1.7.2.min.js" type="text/javascript">
-    </script>
-    <script src="js/language/jquery.validationEngine-en.js" type="text/javascript" charset="utf-8">
-    </script>
-    <script src="js/jquery.validationEngine.js" type="text/javascript" charset="	   utf-8">
-    </script>
-    <script>
           jQuery(document).ready(function () {
          // binds form submission and fields to the validation engine
          jQuery("#formID").validationEngine('attach');
          });
-    </script>
