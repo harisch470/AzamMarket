@@ -33,10 +33,12 @@ Route::group(['Basics'], function () {
     Route::get('/whole-seller-home', function () { return view('whole-seller-home');})->name('whole-seller-home');
     Route::get('/whole-seller-category', function () { return view('whole-seller-category');})->name('whole-seller-category');
     Route::get('/wishlist', function () { return view('wishlist-page');})->name('wishlist');
+    Route::get('/p', function () { return view('practice');})->name('p');
 
     Route::get('/master', function () { return view('layouts.master');})->name('master');
 
     Route::post('/createUser', ['uses' => 'UserController@create', 'as' => 'create.User']);
+    Route::post('/uploadImg', ['uses' => 'UserController@uploadImg', 'as' => 'upload.Img']);
 
 });
 

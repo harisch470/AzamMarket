@@ -18,9 +18,11 @@ class Buyer extends Model
         $buyer->address = $data['address'];
         $buyer->contactNo = $data['contactNo'];
         $buyer->password = encrypt($data['password']);
-        $buyer->profileImg = $data['profileImg'];
-        $buyer->coverImg = $data['coverImg'];
+        $buyer->profileImg = $data['profileImg']->getClientOriginalName();
+        $buyer->coverImg = $data['coverImg']->getClientOriginalName();
         $buyer->save();
     }
+
+
 
 }

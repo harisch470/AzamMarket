@@ -20,8 +20,8 @@ class Seller extends Model
         $seller->contactNo = $data['contactNo'];
         $seller->subCharges = $data['subCharges'];
         $seller->password = encrypt($data['password']);
-        $seller->profileImg = $data['profileImg'];
-        $seller->coverImg = $data['coverImg'];
+        $seller->profileImg = $data['profileImg']->getClientOriginalName();
+        $seller->coverImg = $data['coverImg']->getClientOriginalName();
         $seller->save();
     }
 }

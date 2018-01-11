@@ -21,8 +21,8 @@ class CreateBuyersTable extends Migration
             $table->string('address',120);
             $table->double('contactNo');
             $table->string('password',200);
-            $table->string('profileImg',150);
-            $table->string('coverImg',150);
+            $table->string('profileImg',200);
+            $table->string('coverImg',200);
             $table->timestamps();
         });
     }

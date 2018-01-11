@@ -23,8 +23,8 @@ class CreateSellersTable extends Migration
             $table->double('contactNo');
             $table->double('subCharges');
             $table->string('password',200);
-            $table->string('profileImg',150);
-            $table->string('coverImg',150);
+            $table->string('profileImg',200);
+            $table->string('coverImg',200);
             $table->timestamps();
         });
     }
