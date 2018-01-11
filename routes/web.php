@@ -18,7 +18,7 @@ Route::group(['Basics'], function () {
     Route::get('/enquiry', function () { return view('enquiry');})->name('enquiry');
     Route::get('/', function () { return view('index');});
     Route::get('/home', function () { return view('index');}) ->name('home');
-    Route::get('/login', function () { return view('login');})->name('login');
+//    Route::get('/login', function () { return view('login');})->name('login');
     Route::get('/offer-accepted', function () { return view('offer-accepted');})->name('offer-accepted');
     Route::get('/offer-received', function () { return view('offer-received');})->name('offer-received');
     Route::get('/order-accepted-list', function () { return view('order-accepted-list');})->name('order-accepted-list');
@@ -43,4 +43,5 @@ Route::group(['Basics'], function () {
 });
 
 Auth::routes();
+Route::get('/logout', 'Auth\LoginController@logout');
 

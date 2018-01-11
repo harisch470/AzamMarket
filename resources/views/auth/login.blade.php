@@ -30,14 +30,15 @@
                 </div>
             </div>
             <div class="inner-container">
-                <form id="formID">
+                <form id="formID" action="{{ route('login') }}" method="post">
+                    {{ csrf_field() }}
                     <div class="form-group">
                         <label for="formGroupExampleInput">Email</label>
-                        <input type="email" class="form-control validate[required,custom[email]]">
+                        <input type="email" name="email" class="form-control validate[required,custom[email]]">
                     </div>
                     <div class="form-group">
                         <label for="formGroupExampleInput2">Password</label>
-                        <input type="Password" class="form-control validate[required]">
+                        <input type="Password" name="password" class="form-control validate[required]">
                     </div>
                     <div class="row">
                         <div class="form-group">

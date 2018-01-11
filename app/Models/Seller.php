@@ -19,9 +19,15 @@ class Seller extends Model
         $seller->address = $data['address'];
         $seller->contactNo = $data['contactNo'];
         $seller->subCharges = $data['subCharges'];
-        $seller->password = encrypt($data['password']);
+        $seller->password = bcrypt($data['password']);
         $seller->profileImg = $data['profileImg']->getClientOriginalName();
         $seller->coverImg = $data['coverImg']->getClientOriginalName();
         $seller->save();
+        $user=new User();
+        $user->name=$data['name'];
+        $user->email=$data['email'];
+        $user->password=bcrypt($data['password']);
+        $user->save();
+
     }
 }

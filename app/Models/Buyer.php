@@ -21,6 +21,11 @@ class Buyer extends Model
         $buyer->profileImg = $data['profileImg']->getClientOriginalName();
         $buyer->coverImg = $data['coverImg']->getClientOriginalName();
         $buyer->save();
+        $user=new User();
+        $user->name=$data['name'];
+        $user->email=$data['email'];
+        $user->password=bcrypt($data['password']);
+        $user->save();
     }
 
 

@@ -20,8 +20,13 @@
   <ul class="nav">
     <li><a href="{{route('home')}}"><img src="ASSETS FOLDER/registeration assets/assets/images/svg/user.svg" style="height:50px; width:30px;" /></a>
       <ul>
+          @if (Auth::guest())
         <li><a href="{{route('select-type')}}">Register</a></li>
-        <li><a href="{{route('login')}}">Log In</a></li>
+        <li><a href="{{ route('login') }}">Log In</a></li>
+          @else
+              <li><a href="#"> {{ Auth::user()->name }}</a></li>
+              <li> <a href="{{ route('logout') }}">Logout</a></li>
+          @endif
       </ul>
     </li>
    </ul>
