@@ -18,7 +18,6 @@ Route::group(['Basics'], function () {
     Route::get('/enquiry', function () { return view('enquiry');})->name('enquiry');
     Route::get('/', function () { return view('index');});
     Route::get('/home', function () { return view('index');}) ->name('home');
-//    Route::get('/login', function () { return view('login');})->name('login');
     Route::get('/offer-accepted', function () { return view('offer-accepted');})->name('offer-accepted');
     Route::get('/offer-received', function () { return view('offer-received');})->name('offer-received');
     Route::get('/order-accepted-list', function () { return view('order-accepted-list');})->name('order-accepted-list');
@@ -33,15 +32,23 @@ Route::group(['Basics'], function () {
     Route::get('/whole-seller-home', function () { return view('whole-seller-home');})->name('whole-seller-home');
     Route::get('/whole-seller-category', function () { return view('whole-seller-category');})->name('whole-seller-category');
     Route::get('/wishlist', function () { return view('wishlist-page');})->name('wishlist');
+    Route::get('/master', function () { return view('layouts.master');})->name('master');
     Route::get('/p', function () { return view('practice');})->name('p');
 
-    Route::get('/master', function () { return view('layouts.master');})->name('master');
-
-    Route::post('/createUser', ['uses' => 'UserController@create', 'as' => 'create.User']);
-    Route::post('/uploadImg', ['uses' => 'UserController@uploadImg', 'as' => 'upload.Img']);
 
 });
 
 Auth::routes();
-Route::get('/logout', 'Auth\LoginController@logout');
 
+Route::group(['UserRoutes'], function () {
+    Route::post('/createUser', ['uses' => 'UserController@create', 'as' => 'create.User']);
+    Route::post('/uploadImg', ['uses' => 'UserController@uploadImg', 'as' => 'upload.Img']);
+    Route::get('/logout', 'Auth\LoginController@logout');
+
+});
+
+Route::group(['EnquiryRoutes'], function () {
+    Route::post('/createEnquiry', ['uses' => 'EnquiryController@create', 'as' => 'create.Enquiry']);
+
+
+});

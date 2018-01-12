@@ -27,6 +27,7 @@ class Seller extends Model
         $user->name=$data['name'];
         $user->email=$data['email'];
         $user->password=bcrypt($data['password']);
+        $user->type="seller";
         $user->save();
 
     }
